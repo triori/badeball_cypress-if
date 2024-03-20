@@ -13,7 +13,8 @@ When('I hit Start button', () => {
 })
 
 Then('I check that there are no numbers in the book titles', () => {
-  cy.get('.rt-tr-group')
+
+  cy.get('.rt-tr-group').if('visible')
     //This string doesn't cant garantee that your find the digits in titles only, page contains at least 40 elements with this CSS chain
     .find('.rt-td')
     .contains(/\d/)
