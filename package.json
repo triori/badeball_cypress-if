@@ -4,32 +4,32 @@
     "description": "ci logger test",
     "main": "index.js",
     "scripts": {
-      "start:ci": "serve --no-clipboard --listen ${PORT:-8080}",
-      "print-env": "print-env",
-      "cy:verify": "cypress verify",
-      "cy:info": "cypress info",
-      "e2e:chrome": "cypress run --browser chrome",
-      "cy:open": "cypress open",
-      "cy:run:chrome": "cypress run --browser chrome",
-      "cy:run:ff": "cypress run --browser firefox",
-      "cy:run:electron": "cypress run --browser electron",
-      "cy:update-snapshots": "cypress run --env updateSnapshots=true"
+        "start:ci": "serve --no-clipboard --listen ${PORT:-8080}",
+        "print-env": "print-env",
+        "cy:verify": "cypress verify",
+        "cy:info": "cypress info",
+        "e2e:chrome": "cypress run --browser chrome",
+        "cy:open": "cypress open",
+        "cy:run:chrome": "cypress run --browser chrome",
+        "cy:run:ff": "cypress run --browser firefox",
+        "cy:run:electron": "cypress run --browser electron",
+        "cy:update-snapshots": "cypress run --env updateSnapshots=true"
     },
     "keywords": [
-      "Automation",
-      "Framework",
-      "Cypress"
+        "Automation",
+        "Framework",
+        "Cypress"
     ],
     "author": "Slava_Broit",
     "license": "ISC",
     "devDependencies": {
-      "@badeball/cypress-cucumber-preprocessor": "^20.0.2",
-      "@cypress/browserify-preprocessor": "^3.0.2",
-      "cypress": "^13.6.6",
-      "cypress-if": "^1.12.0"
+        "@badeball/cypress-cucumber-preprocessor": "^20.0.2",
+        "@cypress/browserify-preprocessor": "^3.0.2",
+        "cypress": "^13.6.6",
+        "cypress-if": "^1.12.0",
+        "cypress-terminal-report": "^6.0.1"
     },
     "dependencies": {
-      "typescript": "^5.4.2"
+        "typescript": "^5.4.2"
     }
-  }
-  
+}
