@@ -11,7 +11,6 @@ Scenario: Test task #2. Should click element if dropdown closed only.
     When open "/menu#" page
     Then I should click element if dropdown closed only
 
-@focus
 Scenario: Test task #3. Try to catch 98%.
     When open "/progress-bar" page
     And I hit Start button
